@@ -1,0 +1,74 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap|Lora|Roboto");
+
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(13, 13, 13);
+    /**font-size: var(width)*100px;**/
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.title {
+    color : slateblue;
+    font-size: 75px;
+    margin: 1% auto;
+    /**text-shadow: 0px 0px 10px whitesmoke;**/
+}
+
+#timer{
+    color: black;
+    font-size: 30px;
+    margin: 1% auto;
+    /**text-shadow: 0px 0px 10px whitesmoke;**/
+}
+
+.column{
+    text-align: center;
+    justify-content: space-evenly;  /**center;**/
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;  /**center;**/
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid darkviolet;
+    box-shadow: 0px 0px 30px slateblue;
+    background-color: grey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.box1:hover {
+    background-color: darkorchid;
+}
+
+.box2 {
+    position: absolute;
+    background-color: red ;
+}
+
+.box2:hover {
+    background-color: violet !important;
+}
+
+.box3 {
+    background-color: grey;
+}
+
+.box3:hover {
+    background-color: thistle;
+}
